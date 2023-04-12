@@ -11,8 +11,28 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./source/styles/mycss.css" />
-    <title>Home</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./source/files/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./source/files/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./source/files/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./source/files/favicon_io/site.webmanifest" />
+
+    <title>HiT</title>
   </head>
+
   <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-dark">
@@ -45,6 +65,27 @@
               <li class="nav-item">
                 <a class="nav-link" href="./pricing.html">Pricing</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    style="width: 30px"
+                    src="./source/images/yt.png"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    style="width: 25px"
+                    src="./source/images/tg.png"
+                    alt=""
+                  />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -57,7 +98,145 @@
           <div class="col-lg-1"></div>
 
           <div class="col-lg-8 col-md-12">
-            <div class="row"></div>
+            <div class="row">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-bs-ride="true"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="d-block w-100">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                          <img
+                            src="./source/images/gaming pc.png"
+                            class="w-100"
+                            alt=""
+                          />
+                        </div>
+                        <div class="col-lg-6 col-md-6 slide-text">
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Dolorum dolores perferendis ut excepturi,
+                            assumenda laudantium autem ipsa nulla. Libero
+                            inventore amet natus?
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="d-block w-100">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6t">
+                          <img
+                            src="./source/images/laptop.png"
+                            class="w-100"
+                            alt=""
+                          />
+                        </div>
+                        <div class="col-lg-6 col-md-6 slide-text">
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Dolorum do excepturi, assumenda laudantium
+                            autem ipsa nulla. Libero inventore amet natus?
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="d-block w-100">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6t">
+                          <img
+                            src="./source/images/vr.png"
+                            class="w-100"
+                            alt=""
+                          />
+                        </div>
+                        <div class="col-lg-6 col-md-6 slide-text">
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Dol autem ipsa nulla. Libero inventore amet
+                            natus?
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <div class="col-lg-12 col-md-12 text-center mt-4">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary btn-lg my-4"
+                >
+                  See more
+                </button>
+              </div>
+
+              <div class="col-lg-12 col-md-12 text-center mt-4">
+                <p>Can we help you?</p>
+              </div>
+
+              <div class="col-lg-12 col-md-12 text-center">
+                <img
+                  class="call-anim"
+                  style="width: 75px"
+                  src="./source/images/phone.png"
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-12">
@@ -108,7 +287,32 @@
       </div>
     </section>
 
-    <footer></footer>
+    <footer class="mt-4">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 footer-text text-center">
+            <p>ALL right reserved 2023</p>
+          </div>
+          <div class="col-lg-4 col-md-12 footer-text text-center">
+            <a href="">Contact</a>
+            <a href="">Job</a>
+            <a href="">Our Team</a>
+          </div>
+          <div class="col-lg-4 col-md-12 media-links">
+            <img
+              style="width: 40px; margin-inline: 1em"
+              src="./source/images/yt.png"
+              alt=""
+            />
+            <img
+              style="width: 40px; margin-inline: 1em"
+              src="./source/images/tg.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
